@@ -242,7 +242,7 @@
                 button.className = `option-button difficulty-${word.Pontos}`;
                 button.innerHTML = `
                     ${word.Palavra}
-                    <div class="difficulty-text">Nível ${word.Pontos}</div>
+                    <div class="difficulty-text">Pontos ${word.Pontos}</div>
                 `;
                 button.onclick = () => selectWord(word.Palavra);
                 container.appendChild(button);
